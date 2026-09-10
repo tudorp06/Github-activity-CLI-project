@@ -16,3 +16,10 @@ Fetch and display a GitHub user's recent public activity. Built for roadmap.sh �
 3. New terminal → `github-activity torvalds`
 
 ## Usage
+github-activity torvalds
+github-activity this-user-does-not-exist-123
+offline → "Network error - check your connection"
+
+## How it works
+- `urllib` + GitHub `/users/<name>/events`, User-Agent header
+- PushEvent payloads often lack `commits` → prints generic "pushed": The Github API structure for retrieving a {username} list of events has changed, and now the payload no longer contains the number of commits, instead it documents changes, "before/after".
