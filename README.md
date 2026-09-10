@@ -16,9 +16,9 @@ Fetch and display a GitHub user's recent public activity. Built for roadmap.sh �
 3. New terminal → `github-activity torvalds`
 
 ## Usage
-github-activity torvalds
-github-activity this-user-does-not-exist-123
-offline → "Network error - check your connection"
+-github-activity torvalds
+-github-activity this-user-does-not-exist-123
+-offline → "Network error - check your connection"
 
 ## How it works
 - `urllib` + GitHub `/users/<name>/events`, User-Agent header
