@@ -1,6 +1,6 @@
 # github-activity CLI
 
-Fetch and display a GitHub user's recent public activity. Built for roadmap.sh — Python, zero dependencies.
+Fetch and display a GitHub user's recent public activity. Built for roadmap.sh — Python, zero dependencies. Project URL: https://roadmap.sh/projects/github-user-activity
 
 ## Features
 - `github-activity <username>` from anywhere (PATH + .bat wrapper)
