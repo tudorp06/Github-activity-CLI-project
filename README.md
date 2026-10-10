@@ -16,7 +16,7 @@ Fetch and display a GitHub user's recent public activity. Built for roadmap.sh â
 3. New terminal â†’ `github-activity torvalds`
 
 ## Usage
-github-activity torvalds
+example: "github-activity torvalds"
 
 ## How it works
 - `urllib` + GitHub `/users/<name>/events`, User-Agent header
